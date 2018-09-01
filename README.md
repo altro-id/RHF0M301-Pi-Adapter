@@ -12,7 +12,7 @@ RHF0M301 pin    | Description   | RPi physical pin
 ----------------|---------------|-----------------
 1,2             | Supply 5V     | 2
 3,4,21,22,23    | GND           | 6
-14              | Reset         | 26
+14              | Reset         | 22
 16              | SPI CLK       | 23
 15              | SPI MISO      | 21
 18              | SPI MOSI      | 19
@@ -39,9 +39,9 @@ $ <packet-forwarder-binary> start
 ```
 to:
 ```bash
-$ <packet-forwarder-binary> start --reset-pin 7
+$ <packet-forwarder-binary> start --reset-pin 25
 ```
-_Note: **7** is the RPi hardware pin for physical pin **26**_
+_Note: **7** is the RPi hardware pin for physical pin **22**_
 
 ## Assembled Board
 The following are the image of assembled board without GPS installed:
